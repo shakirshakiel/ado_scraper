@@ -5,7 +5,7 @@ from ado_scraper.wit_scraper import WitScraper
 
 def main():
     scraper = WitScraper(
-        organization=os.environ.get("ADO_ORGANISATION"),
+        organization=os.environ.get("ADO_ORGANIZATION"),
         project=os.environ.get("ADO_PROJECT"),
         personal_access_token=os.environ.get("ADO_PAT"),
     )
