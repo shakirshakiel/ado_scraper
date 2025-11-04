@@ -1,3 +1,4 @@
+import json
 import os
 from typing import List
 
@@ -33,8 +34,13 @@ class WitScraper:
 
         for attachment in attachments:
             url = attachment["url"]
-            name = attachment.get("attributes", {}).get("name", "unnamed_attachment")
+            attributes = attachment.get("attributes", {})
+            name = attributes.get("name", "unnamed_attachment")
             print(f"Downloading {name} from {url} ...")
             out_path = os.path.join(dest_folder, name)
             self.service.download_url_to_path(url, out_path)
             print(f"Saved: {out_path}")
+
+            with open(f"{out_path}.json", "w") as f:
+                json.dump(attributes, f, indent=4)
+            print(f"Saved: {out_path}.json")
