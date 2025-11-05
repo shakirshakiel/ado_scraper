@@ -3,6 +3,7 @@ import os
 from typing import List
 
 from .ado_service import AdoService
+from .file_utils import FileUtils
 
 
 class WitScraper:
@@ -41,6 +42,12 @@ class WitScraper:
             self.service.download_url_to_path(url, out_path)
             print(f"Saved: {out_path}")
 
+            file_metadata = FileUtils.get_file_metadata(out_path)
+            combined_metadata = {
+                "ado_attributes": attributes,
+                "file_metadata": file_metadata,
+            }
+
             with open(f"{out_path}.json", "w") as f:
-                json.dump(attributes, f, indent=4)
+                json.dump(combined_metadata, f, indent=4)
             print(f"Saved: {out_path}.json")
