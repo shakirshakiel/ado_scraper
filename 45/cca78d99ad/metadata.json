@@ -1,0 +1,22 @@
+{
+  "cli_version": "0.4.9",
+  "checkpoint_id": "45cca78d99ad",
+  "strategy": "manual-commit",
+  "branch": "main",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "ado_scraper/ado_service.py",
+    "ado_scraper/file_utils.py",
+    "ado_scraper/wit_scraper.py",
+    "wit_scraper.py"
+  ],
+  "sessions": [
+    {
+      "metadata": "/45/cca78d99ad/0/metadata.json",
+      "transcript": "/45/cca78d99ad/0/full.jsonl",
+      "context": "/45/cca78d99ad/0/context.md",
+      "content_hash": "/45/cca78d99ad/0/content_hash.txt",
+      "prompt": "/45/cca78d99ad/0/prompt.txt"
+    }
+  ]
+}

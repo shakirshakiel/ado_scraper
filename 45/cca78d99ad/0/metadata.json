@@ -1,0 +1,26 @@
+{
+  "cli_version": "0.4.9",
+  "checkpoint_id": "45cca78d99ad",
+  "session_id": "0bcab8bc-030c-42b7-a961-2e7d09e13606",
+  "strategy": "manual-commit",
+  "created_at": "2026-03-03T15:45:45.920341Z",
+  "branch": "main",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "ado_scraper/ado_service.py",
+    "ado_scraper/file_utils.py",
+    "ado_scraper/wit_scraper.py",
+    "wit_scraper.py"
+  ],
+  "agent": "Cursor",
+  "turn_id": "daee8cf50441",
+  "initial_attribution": {
+    "calculated_at": "2026-03-03T15:45:45.856931Z",
+    "agent_lines": 200,
+    "human_added": 0,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 200,
+    "agent_percentage": 100
+  }
+}
