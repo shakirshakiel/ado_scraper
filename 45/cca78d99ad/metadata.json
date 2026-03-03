@@ -3,7 +3,7 @@
   "checkpoint_id": "45cca78d99ad",
   "strategy": "manual-commit",
   "branch": "main",
-  "checkpoints_count": 1,
+  "checkpoints_count": 2,
   "files_touched": [
     "ado_scraper/ado_service.py",
     "ado_scraper/file_utils.py",
@@ -17,6 +17,20 @@
       "context": "/45/cca78d99ad/0/context.md",
       "content_hash": "/45/cca78d99ad/0/content_hash.txt",
       "prompt": "/45/cca78d99ad/0/prompt.txt"
+    },
+    {
+      "metadata": "/45/cca78d99ad/1/metadata.json",
+      "transcript": "/45/cca78d99ad/1/full.jsonl",
+      "context": "/45/cca78d99ad/1/context.md",
+      "content_hash": "/45/cca78d99ad/1/content_hash.txt",
+      "prompt": "/45/cca78d99ad/1/prompt.txt"
     }
-  ]
+  ],
+  "token_usage": {
+    "input_tokens": 0,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 0,
+    "output_tokens": 0,
+    "api_call_count": 0
+  }
 }

@@ -1,0 +1,33 @@
+{
+  "cli_version": "0.4.9",
+  "checkpoint_id": "45cca78d99ad",
+  "session_id": "unknown",
+  "strategy": "manual-commit",
+  "created_at": "2026-03-03T15:45:46.025268Z",
+  "branch": "main",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "ado_scraper/ado_service.py",
+    "ado_scraper/file_utils.py",
+    "ado_scraper/wit_scraper.py",
+    "wit_scraper.py"
+  ],
+  "agent": "Claude Code",
+  "turn_id": "7b903e764e07",
+  "token_usage": {
+    "input_tokens": 0,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 0,
+    "output_tokens": 0,
+    "api_call_count": 0
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-03-03T15:45:46.01746Z",
+    "agent_lines": 200,
+    "human_added": 0,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 200,
+    "agent_percentage": 100
+  }
+}
